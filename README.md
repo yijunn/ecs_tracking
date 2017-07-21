@@ -1,18 +1,24 @@
-# ECS Events
+## PROPERTIES
 
-## 123
+#### signup_method
+- `TYPE`: STRING
+- `REQUIRED/OPTIONAL`: optional
+- `EXPECTED INPUT`: [email, facebook, google, gplus, smartlock]
 
-* abc
+#### login_method
+- `TYPE`: STRING
+- `REQUIRED/OPTIONAL`: optional
+- `EXPECTED INPUT`: [email, facebook, google, gplus, smartlock]
+   
+<br />
+<br />
+<br />
+    
+## EVENTS
 
-|     ACTION     |    SCREEN/ACTION    |    PROPERTIES     |    REQUIRED/OPTIONAL    |    EXPECTED INPUT     | IOS | ANDROID | WEB | INFRA |
-|---|---|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-
-
-| FIELD | TYPE | REQUIRED/OPTIONAL |  EXPECTED INPUT | NOTES |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+#### view_onboarding
+- `WHEN`: user launches app 
+- `TYPE`: ACTION
+- `PROPERTIES`:
+- `SCREEN`: INSERT-ZEPLIN-LINK
+- `A/B TEST`: ANDROID_SMARTLOCK
