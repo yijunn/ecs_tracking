@@ -17,9 +17,9 @@
 ## EVENTS
 
 #### view_onboarding
-- `A/B TEST`: android_smartlock
 - `WHEN`: user launches app 
 - `TYPE`: ACTION
 - `PROPERTIES`:
+- `A/B TEST`: android_smartlock
 - `SCREEN`: insert_screen_name
 
