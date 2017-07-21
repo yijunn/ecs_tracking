@@ -21,6 +21,5 @@
 - `TYPE`: SCREEN
 - `PROPERTIES`:
 - `PLATFORM`: [iOS, android, web]
-- `A/B TEST`: android_smartlock
 - `SCREEN`: insert_screen_name
 
