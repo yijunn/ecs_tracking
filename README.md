@@ -20,5 +20,5 @@
 - `WHEN`: user launches app 
 - `TYPE`: ACTION
 - `PROPERTIES`:
-- `SCREEN`: INSERT-ZEPLIN-LINK
-- `A/B TEST`: ANDROID_SMARTLOCK
+- `SCREEN`: insert_screen_name
+- `A/B TEST`: android_smartlock
