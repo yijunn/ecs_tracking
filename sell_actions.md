@@ -16,7 +16,7 @@
     
 ## EVENTS
 
-#### view_sell
+#### <a name="link_view_sell"></a>view_sell
 - `WHEN`: user views sell form
 - `TYPE`: SCREEN
 - `PROPERTIES`:
