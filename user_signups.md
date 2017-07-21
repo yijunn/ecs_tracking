@@ -20,6 +20,5 @@
 - `WHEN`: user launches app 
 - `TYPE`: ACTION
 - `PROPERTIES`:
-- `A/B TEST`: android_smartlock
 - `SCREEN`: insert_screen_name
 
