@@ -1,0 +1,66 @@
+default_dataset: sell_actions
+
+type:
+    - product_id: STRING
+    - trx_id: STRING
+
+event:
+    - track:
+        name: "view_boost"
+        type: screen
+        when: |
+            User lands on the boost page after tapping Boost button below listing card.
+        properties:
+            - name: product_id
+
+
+    - track:
+        name: "bump_3d_btn_tapped"
+        type: action
+        when: |
+            User taps on 3-day bump call-to-action (CTA) button.
+        properties:
+            - name: product_id
+
+
+    - track:
+        name: "bump_3d_success"
+        type: action
+        when: |
+            User taps 3-day bump CTA button and successfully purchased it.
+        properties:
+            - name: product_id
+
+            - name: trx_id
+              value: "*392*"
+              description: |
+                  Coin transaction id
+
+
+    - track:
+        name: "bump_pdb_btn_tapped"
+        type: action
+        when: |
+            User taps on Price Drop Bump (PDB) call-to-action (CTA) button.
+        properties:
+            - name: product_id
+
+
+    - track:
+        name: "bump_pdb_success"
+        type: action
+        when: |
+            User taps PDB CTA button and successfully purchased it.
+        properties:
+            - name: product_id
+
+            - name: trx_id
+              value: "*392*"
+              description: |
+                  PDB transaction id.
+
+    - track:
+        name: "bump_3d_faq_btn_tapped"
+        type: action
+        when: |
+            User taps on "More Info" below 3-day Bump CTA button.
