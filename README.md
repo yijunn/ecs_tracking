@@ -5,7 +5,7 @@
 ###### For Testing:
 - Generation of changelog on commandline
 - Auto-merging of changelog to repo
-- Setting up job to run daily to automatically update changelog
+- (Preferably trigger auto update of changelog on merging of a branch) OR (Setting up job to run daily to automatically update changelog)
 
 ###### Given:
-- Proper commit message naming conventions in pull requests
+- Proper commit message naming conventions in pull requests for traceability i.e. team/feature/label
