@@ -9,3 +9,5 @@
 
 ###### Given:
 - Proper commit message naming conventions in pull requests for traceability i.e. `team`/`feature`/`label`
+
+Reference: https://github.com/lalitkapoor/github-changes
