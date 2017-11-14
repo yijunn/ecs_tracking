@@ -8,4 +8,4 @@
 - (Preferably trigger auto update of changelog on merging of a branch) OR (Setting up job to run daily to automatically update changelog)
 
 ###### Given:
-- Proper commit message naming conventions in pull requests for traceability i.e. team/feature/label
+- Proper commit message naming conventions in pull requests for traceability i.e. `team`/`feature`/`label`
